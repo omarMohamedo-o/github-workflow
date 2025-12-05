@@ -12,3 +12,5 @@ jobs:
           run: echo "Hello, World!"
         - name: Check out repository code
           uses: actions/checkout@v4  
+        - name: list repo files
+          run: ls -la
