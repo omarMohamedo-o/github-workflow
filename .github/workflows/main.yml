@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - ".github/workflows/main.yml"  
 jobs:
     first-build-workflow:
         runs-on: ubuntu-latest
