@@ -1,0 +1,12 @@
+{
+  "name": "simple-node-project",
+  "version": "1.0.0",
+  "description": "A simple Node.js project that says hello",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "bash src/test.sh"
+  },
+  "dependencies": {},
+  "author": "Omar Mohamed",
+  "license": "MIT"
+}
