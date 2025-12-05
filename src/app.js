@@ -4,6 +4,6 @@ function sayHello(name) {
 
 module.exports = sayHello;
 
-if (require.main === module) {
-  console.log(sayHello("world"));
-}
+// if (require.main === module) {
+//   console.log(sayHello("world"));
+// }
