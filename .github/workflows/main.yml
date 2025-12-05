@@ -11,4 +11,4 @@ jobs:
         - name: Say Hello
           run: echo "Hello, World!"
         - name: Check out repository code
-          uses: actions/checkout@v3  
+          uses: actions/checkout@v4  
