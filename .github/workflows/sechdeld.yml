@@ -1,4 +1,4 @@
-name: sechdeld workflow
+name: sechdeld-workflow
 on:
   schedule:
     - cron: '* * * * *'  # Runs daily at every minute UTC
