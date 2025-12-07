@@ -1,0 +1,11 @@
+name: manuel-workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+    manual-build-job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Say Hello from manual job
+          run: echo "Hello from manual job!"
