@@ -1,7 +1,7 @@
 name: sechdeld-workflow
 on:
   schedule:
-    - cron: "* * * * *"  # Runs daily at every minute UTC
+    - cron: "54 * * * *"  # Runs daily at every minute UTC
 
 jobs:
     scheduled-build-job:
