@@ -1,12 +1,11 @@
 name: sechdeld-workflow
 on:
   schedule:
-    - cron: "54 * * * *"  # Runs daily at every minute UTC
+    - cron: "0 * * * *"
 
 jobs:
     scheduled-build-job:
         runs-on: ubuntu-latest
         steps:
-
         - name: Say Hello from scheduled job
           run: echo "Hello from scheduled job!"

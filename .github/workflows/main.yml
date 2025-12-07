@@ -9,7 +9,6 @@ jobs:
     first-build-workflow:
         runs-on: ubuntu-latest
         steps:
-
         - name: Say Hello
           run: echo "Hello, World!"
         - name: Check out repository code
