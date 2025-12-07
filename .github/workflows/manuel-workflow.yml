@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       environment:
-        description: "An example input for the manual workflow"
+        description: "choose environment"
         required: true
         default: "staging"
         type: choice
