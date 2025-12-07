@@ -15,4 +15,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: Say Hello from manual job
-          run: echo "Hello from manual job!, ${ { github.event.inputs.environment } } environment selected"
+          run: echo "Hello from manual job!, ${{ inputs.environment }} environment selected"
