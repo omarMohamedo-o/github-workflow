@@ -1,8 +1,15 @@
 name: manuel-workflow
-
 on:
   workflow_dispatch:
-
+    inputs:
+      environment:
+        description: "An example input for the manual workflow"
+        required: true
+        default: "staging"
+        type: choice
+        options:
+          - staging
+          - production  
 jobs:
     manual-build-job:
         runs-on: ubuntu-latest
