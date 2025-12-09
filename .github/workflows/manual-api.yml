@@ -1,4 +1,4 @@
-name: manuel-workflow
+name: manuel-api-workflow
 on:
   repository_dispatch:
     types: [incident-report]  
