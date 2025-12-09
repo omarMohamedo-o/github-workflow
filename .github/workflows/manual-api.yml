@@ -1,0 +1,11 @@
+name: manuel-workflow
+on:
+  repository_dispatch:
+    types: [incident-report]  
+
+jobs:
+    handle-incident-job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: manual-api-job-deploy
+          run: echo "Hello from manual api job!, incident-report event received"
