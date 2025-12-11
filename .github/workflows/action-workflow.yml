@@ -28,7 +28,5 @@ jobs:
             npm --version 
         
         - name: use a custom dockerized action
-          uses: ./github/actions/sample-docker-action
-          with:
-            greeting: "Hello from custom dockerized action!"        
+          run: echo "Hello from custom dockerized action!"        
 
