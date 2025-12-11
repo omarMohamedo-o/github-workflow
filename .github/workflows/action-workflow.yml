@@ -13,7 +13,7 @@ jobs:
           uses: docker://alpine:3.17
           with:
             entrypoint: /bin/sh
-            args: -c 'echo "Hello from alpine container!"'
+            args: -c echo "Hello from alpine container!"
     dockerized-action-job:
         runs-on: ubuntu-latest
         container: node:20
