@@ -34,7 +34,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build
+    needs: test
     steps:
       - name: Deploy application
         run: echo "Application deployment succeeded for the ${{ github.job }} job in the ${{ inputs.environment }} environment."
